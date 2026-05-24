@@ -18,140 +18,146 @@ const Gallery = () => {
 
   const photos = [
     {
-      image: "/assets/1.jpeg",
+      image: `${import.meta.env.BASE_URL}assets/1.jpeg`,
       title: "Tagant Workshop",
       category: "Photos",
     },
 
     {
-      image: "/assets/2.jpeg",
+      image: `${import.meta.env.BASE_URL}assets/2.jpeg`,
       title: "Cultural Event",
       category: "Activities",
     },
 
     {
-      image: "/assets/3.jpeg",
+      image: `${import.meta.env.BASE_URL}assets/3.jpeg`,
       title: "Group Picture",
       category: "Awards",
     },
 
     {
-      image: "/assets/4.jpeg",
+      image: `${import.meta.env.BASE_URL}assets/4.jpeg`,
       title: "Teacher Excellence Award 2026",
       category: "Workshops",
     },
 
     {
-      image: "/assets/5.jpeg",
+      image: `${import.meta.env.BASE_URL}assets/5.jpeg`,
       title: "Best Teacher Award 2025",
       category: "Photos",
     },
 
     {
-      image: "/assets/6.jpeg",
+      image: `${import.meta.env.BASE_URL}assets/6.jpeg`,
       title: "Students Reviews",
       category: "Activities",
     },
 
     {
-      image: "/assets/7.jpeg",
+      image: `${import.meta.env.BASE_URL}assets/7.jpeg`,
       title: "Students Reviews",
       category: "Photos",
     },
 
     {
-      image: "/assets/8.jpeg",
+      image: `${import.meta.env.BASE_URL}assets/8.jpeg`,
       title: "Students Reviews",
       category: "Workshops",
     },
 
     {
-      image: "/assets/9.jpeg",
+      image: `${import.meta.env.BASE_URL}assets/9.jpeg`,
       title: "Students Reviews",
       category: "Activities",
     },
 
     {
-      image: "/assets/10.jpeg",
+      image: `${import.meta.env.BASE_URL}assets/10.jpeg`,
       title: "Gifts",
       category: "Awards",
     },
 
     {
-      image: "/assets/11.jpeg",
+      image: `${import.meta.env.BASE_URL}assets/11.jpeg`,
       title: "Students Reviews",
       category: "Photos",
     },
 
     {
-      image: "/assets/12.jpeg",
+      image: `${import.meta.env.BASE_URL}assets/12.jpeg`,
       title: "Students Reviews",
       category: "Activities",
     },
+
     {
-      image: "/assets/13.jpeg",
+      image: `${import.meta.env.BASE_URL}assets/13.jpeg`,
       title: "First International Conference, Bharia University, Islamabad",
       category: "Awards",
     },
+
     {
-      image: "/assets/14.jpeg",
+      image: `${import.meta.env.BASE_URL}assets/14.jpeg`,
       title: "Educational Growth",
       category: "Workshops",
     },
+
     {
-      image: "/assets/15.jpeg",
+      image: `${import.meta.env.BASE_URL}assets/15.jpeg`,
       title: "Awards",
       category: "Awards",
     },
+
     {
-      image: "/assets/16.jpeg",
+      image: `${import.meta.env.BASE_URL}assets/16.jpeg`,
       title: "2nd International Conference at Ripha University Lahore",
       category: "Photos",
     },
+
     {
-      image: "/assets/17.jpeg",
+      image: `${import.meta.env.BASE_URL}assets/17.jpeg`,
       title: "Educational Growth",
       category: "Awards",
     },
+
     {
-      image: "/assets/18.jpeg",
+      image: `${import.meta.env.BASE_URL}assets/18.jpeg`,
       title: "Students Love",
       category: "Photos",
     },
   ];
 
   /* ----------------------------- VIDEOS ----------------------------- */
-
   const videos = [
     {
       title: "Punjab Cultural Event",
       duration: "00:32 mins",
-      src: "/assets/video1.mp4",
+      src: `${import.meta.env.BASE_URL}assets/video1.mp4`,
     },
 
     {
       title: "Teacher's Day",
       duration: "00:11 mins",
-      src: "/assets/video2.mp4",
+      src: `${import.meta.env.BASE_URL}assets/video2.mp4`,
     },
 
     {
       title: "Teacher's Day",
       duration: "00:33 mins",
-      src: "/assets/video3.mp4",
+      src: `${import.meta.env.BASE_URL}assets/video3.mp4`,
     },
+
     {
       title: "First International Conference at Bharia University Islamabad",
       duration: "00:33 mins",
-      src: "/assets/prize1.mp4",
+      src: `${import.meta.env.BASE_URL}assets/prize1.mp4`,
     },
+
     {
       title: "Teacher's prize distribution at Kips Islamabad",
       duration: "00:33 mins",
-      src: "/assets/prize2.mp4",
+      src: `${import.meta.env.BASE_URL}assets/prize2.mp4`,
     },
   ];
-
   /* ----------------------------- FILTER ----------------------------- */
 
   const filteredPhotos =

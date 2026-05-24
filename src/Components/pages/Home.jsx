@@ -119,7 +119,7 @@ const Home = () => {
                   <div className="absolute top-4 right-4 w-16 h-16 rounded-full bg-white/40 blur-xl"></div>
 
                   <img
-                    src="/assets/Safinaaaz.png"
+                    src={`${import.meta.env.BASE_URL}assets/Safinaaaz.png`}
                     alt="Teacher"
                     className="w-full h-105 md:h-120 object-cover rounded-3xl shadow-xl"
                   />

@@ -39,7 +39,7 @@ const AboutMe = () => {
                   <div className="absolute top-4 left-4 w-16 h-16 rounded-full bg-white/40 blur-xl"></div>
 
                   <img
-                    src="/assets/Safina.png"
+                    src={`${import.meta.env.BASE_URL}assets/Safina.png`}
                     alt="Teacher"
                     className="w-full h-105 md:h-125 object-cover rounded-3xl shadow-xl"
                   />

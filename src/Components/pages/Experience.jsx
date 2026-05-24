@@ -128,14 +128,12 @@ const Experience = () => {
                 {/* Main Image Card */}
                 <div className="bg-linear-to-br from-[#dfe9da] to-[#f3f0e9] rounded-[30px] p-5 shadow-[0_15px_40px_rgba(0,0,0,0.10)] border border-[#e5e0d6] relative overflow-hidden">
                   <div className="absolute top-4 right-4 w-16 h-16 rounded-full bg-white/40 blur-xl"></div>
-
                   <img
-                    src="/assets/s3.png"
+                    src={`${import.meta.env.BASE_URL}assets/s3.png`}
                     alt="Experience"
                     className="w-full h-105 md:h-125 object-cover rounded-3xl shadow-xl"
                   />
-
-                  {/* Bottom Info Card */}
+                  s{/* Bottom Info Card */}
                   <div className="absolute bottom-5 left-5 right-5 bg-white/90 backdrop-blur-lg rounded-2xl p-4 shadow-lg border border-[#ece7dd]">
                     <h3 className="text-xl font-bold text-[#1f2937] mb-1">
                       Teaching Excellence
