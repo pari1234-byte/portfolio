@@ -149,6 +149,102 @@ const Home = () => {
           </div>
         </div>
       </div>
+      {/* TEACHING PHILOSOPHY */}
+      <div className="mt-12 bg-[#faf8f4] border border-[#e8e2d8] rounded-[28px] p-8 shadow-sm">
+        <h2 className="text-3xl font-bold text-[#1f2937] mb-4">
+          Teaching Philosophy
+        </h2>
+
+        <p className="text-[#5f646d] leading-relaxed text-base">
+          I believe that every learner possesses unique potential and deserves
+          an engaging, inclusive, and supportive learning environment. Effective
+          teaching goes beyond delivering content; it inspires curiosity,
+          critical thinking, creativity, and lifelong learning. Through
+          learner-centered approaches and meaningful classroom interactions, I
+          strive to empower students to become confident, independent, and
+          successful individuals.
+        </p>
+      </div>
+
+      {/* PROFESSIONAL IDENTITY & CAREER GOALS */}
+      <div className="grid md:grid-cols-2 gap-6 mt-8">
+        <div className="bg-white border border-[#ece7dd] rounded-3xl p-6 shadow-sm">
+          <h3 className="text-2xl font-bold text-[#1f2937] mb-4">
+            Professional Identity
+          </h3>
+
+          <p className="text-[#5f646d] leading-relaxed">
+            English Literature Teacher, lifelong learner, mentor, and
+            educational leader committed to fostering academic excellence,
+            personal growth, and innovative learning experiences.
+          </p>
+        </div>
+
+        <div className="bg-white border border-[#ece7dd] rounded-3xl p-6 shadow-sm">
+          <h3 className="text-2xl font-bold text-[#1f2937] mb-4">
+            Career Goals
+          </h3>
+
+          <p className="text-[#5f646d] leading-relaxed">
+            To continue developing innovative teaching practices, integrate
+            educational technology effectively, contribute to professional
+            development initiatives, and inspire future generations of learners
+            through excellence in education.
+          </p>
+        </div>
+      </div>
+
+      {/* ELT TRENDS */}
+      <div className="mt-8 bg-white border border-[#ece7dd] rounded-3xl p-8 shadow-sm">
+        <h2 className="text-3xl font-bold text-[#1f2937] mb-5">
+          Areas of Professional Interest
+        </h2>
+
+        <div className="flex flex-wrap gap-3">
+          {[
+            "AI in Education",
+            "Digital Learning",
+            "CALL",
+            "Task-Based Learning",
+            "Gamification",
+            "Flipped Classroom",
+            "Student-Centered Learning",
+            "Educational Technology",
+            "Collaborative Learning",
+            "Assessment for Learning",
+          ].map((item) => (
+            <span
+              key={item}
+              className="bg-[#eef3ea] text-[#5f7f65] px-4 py-2 rounded-full text-sm font-medium"
+            >
+              {item}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      {/* PORTFOLIO PURPOSE */}
+      <div className="mt-8 bg-[#faf8f4] border border-[#e8e2d8] rounded-3xl p-8 shadow-sm">
+        <h2 className="text-3xl font-bold text-[#1f2937] mb-4">
+          Portfolio Purpose
+        </h2>
+
+        <p className="text-[#5f646d] leading-relaxed">
+          This portfolio showcases my professional journey, educational
+          experiences, achievements, teaching practices, webinar participation,
+          symposium presentations, and continuous commitment to personal and
+          professional growth. It serves as a reflection of my dedication to
+          quality education and lifelong learning.
+        </p>
+      </div>
+
+      {/* REFLECTIVE STATEMENT */}
+      <div className="mt-8 mb-4 bg-[#eef3ea] border border-[#dce7d7] rounded-3xl p-8 text-center">
+        <p className="text-xl italic text-[#4f6f52] font-medium leading-relaxed">
+          "Every teaching experience is an opportunity to learn, reflect, grow,
+          and inspire others to achieve their fullest potential."
+        </p>
+      </div>
     </section>
   );
 };

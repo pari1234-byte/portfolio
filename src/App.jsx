@@ -1,4 +1,5 @@
 import "./index.css";
+
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import NavBar from "./Components/NavBar";
@@ -13,16 +14,11 @@ import Research from "./Components/pages/Research";
 function App() {
   return (
     <Router>
-      {/* Main Website Wrapper */}
       <div className="min-h-screen bg-[#f3f1eb] text-[#1f2937] overflow-x-hidden relative">
         {/* Background Decorative Blurs */}
         <div className="fixed inset-0 -z-10 overflow-hidden">
-          {/* Top Left Blur */}
-
-          {/* Bottom Right Blur */}
           <div className="absolute -bottom-35 -right-35 w-95 h-95 bg-[#d5e2cf] rounded-full blur-3xl opacity-40"></div>
 
-          {/* Center Soft Glow */}
           <div className="absolute top-[30%] left-[40%] w-62.5 h-62.5 bg-[#edf3ea] rounded-full blur-3xl opacity-30"></div>
         </div>
 
